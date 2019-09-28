@@ -1,5 +1,3 @@
-setup.py
-
 from distutils.core import setup
 setup(
   name = 'anagramgen',         # How you named your package folder (MyLib)
@@ -14,8 +12,8 @@ setup(
   keywords = ["ANAGRAM", "ANAGRAMS", "GENERATOR", "SOLVER", "FINDER"],   # Keywords that define your package best
   install_requires=[],
   classifiers=[
-    'Development Status :: 5 - Alpha', 'Intended Audience :: Developers', 
-    'Topic :: Utilities',    'License :: OSI Approved :: MIT License', 
+    'Development Status :: 5 - Alpha', 'Intended Audience :: Developers',
+    'Topic :: Utilities',    'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3.6',
   ],
 )
