@@ -12,7 +12,7 @@ setup(
   keywords = ["ANAGRAM", "ANAGRAMS", "GENERATOR", "SOLVER", "FINDER"],   # Keywords that define your package best
   install_requires=[],
   classifiers=[
-    'Development Status :: 1 - Alpha', 'Intended Audience :: Developers',
+    'Development Status :: 3 - Alpha', 'Intended Audience :: Developers',
     'Topic :: Utilities',    'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3.6',
   ],
