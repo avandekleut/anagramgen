@@ -15,29 +15,29 @@ $ pip install anagramgen
 ### Example
 ```python
 from anagramgen import anagramgen
-with open('corpuses/top-5k.txt', 'r') as file:
+with open('anagramgen/corpuses/top-5k.txt', 'r') as file:
     corpus = [line.strip() for line in file.readlines()]
 gen = anagramgen.AnagramGenerator(corpus)
-gen.generate("wonderland")
+print("\n".join([" ".join(anagram) for anagram in gen.generate("wonderland")]))
 ```
 returns
 
-```python
-[['do', 'lend', 'warn'],
- ['down', 'land', 're'],
- ['draw', 'lend', 'on'],
- ['draw', 'lend', 'no'],
- ['dawn', 'lend', 'or'],
- ['end', 'old', 'warn'],
- ['end', 'lawn', 'rod'],
- ['end', 'land', 'row'],
- ['lend', 'nod', 'war'],
- ['lend', 'nod', 'raw'],
- ['lawn', 'nod', 'red'],
- ['land', 'wonder'],
- ['land', 'own', 'red'],
- ['land', 'now', 'red'],
- ['land', 'new', 'rod'],
- ['a', 'drown', 'lend'],
- ['and', 'lend', 'row']]
+```
+do lend warn
+down land re
+draw lend on
+draw lend no
+dawn lend or
+end old warn
+end lawn rod
+end land row
+lend nod war
+lend nod raw
+lawn nod red
+land wonder
+land own red
+land now red
+land new rod
+a drown lend
+and lend row
 ```
