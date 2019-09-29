@@ -9,7 +9,7 @@
 Installation is easy using `pip`.
 
 ```sh
-$ pip install anagramgen
+$ pip install anagramgen==0.1.1
 ```
 
 ### Example
